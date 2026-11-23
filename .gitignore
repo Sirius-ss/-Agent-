@@ -1,0 +1,12 @@
+.runtime/
+/电商小二/
+**/.env.*
+**/.idea/
+*.log
+*.py[cod]
+**/.env
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/dist/
+**/.pytest_cache/

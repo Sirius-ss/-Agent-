@@ -1,0 +1,42 @@
+{
+  "calls": [
+    [
+      "trace_0b6310c914dc4cab864d2c7534ff5e4f",
+      "COMPLETED",
+      "list_my_devices",
+      true,
+      0
+    ],
+    [
+      "trace_3694e26fcc424500ad554499db1620aa",
+      "COMPLETED",
+      "list_my_devices",
+      true,
+      0
+    ],
+    [
+      "trace_3694e26fcc424500ad554499db1620aa",
+      "COMPLETED",
+      "search_manual",
+      true,
+      0
+    ],
+    [
+      "trace_aa27ddc180cd4413a8732509934cba3c",
+      "COMPLETED",
+      null,
+      null,
+      null
+    ],
+    [
+      "trace_9ddd7c0237544a05a5bf7f0d39166a09",
+      "COMPLETED",
+      null,
+      null,
+      null
+    ]
+  ],
+  "completed": true,
+  "step_count": 2,
+  "risk": "SMOKE_ACTIVE"
+}

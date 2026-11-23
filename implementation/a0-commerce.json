@@ -1,0 +1,105 @@
+[
+  {
+    "case": "product",
+    "input": "商城有哪些洗衣机？",
+    "http": 200,
+    "reply": "ANSWER",
+    "trace": [
+      "trace_37d839cac1b94e09bc74465b9adca71c",
+      "COMPLETED",
+      "deepseek-chat",
+      3555,
+      327
+    ],
+    "tools": [
+      [
+        "search_products",
+        true,
+        343
+      ]
+    ],
+    "demo_refs": [
+      "W-DEMO",
+      "W-DEMO-PLUS"
+    ],
+    "reply_length": 237
+  },
+  {
+    "case": "order",
+    "input": "我的订单什么时候发货？",
+    "http": 200,
+    "reply": "CLARIFY",
+    "trace": [
+      "trace_e8e4528bba4046a0960fe8a58cb7fec9",
+      "COMPLETED",
+      "deepseek-chat",
+      3959,
+      351
+    ],
+    "tools": [
+      [
+        "list_orders",
+        true,
+        312
+      ]
+    ],
+    "demo_refs": [
+      "ORDER_001",
+      "ORDER_002",
+      "ORDER_003",
+      "已发货",
+      "待发货"
+    ],
+    "reply_length": 271
+  },
+  {
+    "case": "logistics",
+    "input": "请查询 ORDER_002 的物流轨迹",
+    "http": 200,
+    "reply": "ANSWER",
+    "trace": [
+      "trace_2d1a74db497246249ae2931ec200abdd",
+      "COMPLETED",
+      "deepseek-chat",
+      3473,
+      266
+    ],
+    "tools": [
+      [
+        "get_logistics",
+        true,
+        302
+      ]
+    ],
+    "demo_refs": [
+      "DEMO-TRACK-002",
+      "ORDER_002"
+    ],
+    "reply_length": 139
+  },
+  {
+    "case": "after_sales",
+    "input": "我的退货售后申请进度怎么样了？",
+    "http": 200,
+    "reply": "ANSWER",
+    "trace": [
+      "trace_7afd7c06770a4283a9344d4565adcce6",
+      "COMPLETED",
+      "deepseek-chat",
+      5245,
+      394
+    ],
+    "tools": [
+      [
+        "list_after_sales",
+        true,
+        315
+      ]
+    ],
+    "demo_refs": [
+      "没有",
+      "退款"
+    ],
+    "reply_length": 123
+  }
+]

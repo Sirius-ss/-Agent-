@@ -1,0 +1,11 @@
+.runtime/
+**/.env
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/dist/
+**/.pytest_cache/
+.idea/
+*.py[cod]
+.env.*
+*.log
